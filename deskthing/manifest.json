@@ -3,17 +3,16 @@
   "isWebApp": true,
   "requires": [],
   "label": "Fortune Cookie",
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "version_code": "1.0",
+  "compatible_server": ["11"],
+  "compatible_client": ["11"],
   "description": "A fortune cookie app for DeskThing that reveals life goals and wisdom",
   "author": "Michael Barbine",
   "platforms": ["linux", "windows", "mac"],
   "homepage": "http://www.fortune-cookie.ph3ar.com",
-  "version_code": 1,
-  "compatible_server": "11",
-  "compatible_client": "11",
-  "requiredVersions": { "server": ">=0.11.8", "client": ">=0.11.2" },
   "repository": "https://github.com/ph3ar/DeskThing-FortuneCookie",
-  "updateUrl": "https://github.com/ph3ar/DeskThing-FortuneCookie",
   "tags": ["fortune", "fun", "wisdom", "life goals", "entertainment"],
-  "icon": "og-image.jpg"
+  "requiredVersions": { "server": ">=0.11.8", "client": ">=0.11.2" },
+  "updateUrl": "https://github.com/ph3ar/DeskThing-FortuneCookie"
 }

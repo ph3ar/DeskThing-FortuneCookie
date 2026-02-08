@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
+  "main": "dist/index.js",
   "scripts": {
     "dev": "deskthing dev",
-    "build": "deskthing build",
+    "build": "deskthing package",
     "lint": "eslint ."
   },
   "dependencies": {
