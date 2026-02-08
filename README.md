@@ -45,5 +45,5 @@ This follows the standard DeskThing app pattern (like [DeskThing-GitHub](https:/
 - `src/stores/` — Client-side stores for DeskThing message handling
 
 ## Credits
-
+https://github.com/ItsRiprod/DeskThing
 Created by Michael Barbine / PH3AR
