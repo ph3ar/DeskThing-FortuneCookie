@@ -1,0 +1,107 @@
+button {
+  background: transparent;
+  background-color: transparent;
+  border: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:active {
+  outline: none;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --surface-100: #121212;
+  --surface-150: #1a1a1a;
+  --surface-200: #282828;
+  --surface-300: #3f3f3f;
+  --surface-400: #575757;
+  --surface-500: #717171;
+  --surface-600: #8b8b8b;
+  --text: white;
+  --sub-text: #a7a7a7;
+  --accent: #ffc857;
+}
+
+/* Style the scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #2c2c2c;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #555;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #888;
+}
+
+.appContainer {
+  background-color: var(--surface-100);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  padding: 16px;
+  overflow: hidden;
+}
+
+.loading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  color: var(--sub-text);
+}
+
+.loading h2 {
+  font-size: 24px;
+  margin-top: 12px;
+}
+
+.loading--spinner {
+  font-size: 48px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* Fade-in animation for fortune cards */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fortune-animate {
+  animation: fadeIn 0.5s ease-out;
+}

@@ -1,0 +1,16 @@
+{
+  "id": "fortune-cookie",
+  "isWebApp": false,
+  "requires": [],
+  "label": "Fortune Cookie",
+  "version": "1.0.0",
+  "description": "A fortune cookie app for DeskThing that reveals life goals and wisdom",
+  "author": "bwm",
+  "platforms": ["linux", "windows", "mac"],
+  "homepage": "",
+  "version_code": 1,
+  "compatible_server": ">=0.11.0",
+  "compatible_client": ">=0.11.0",
+  "repository": "",
+  "tags": ["fortune", "fun", "wisdom"]
+}

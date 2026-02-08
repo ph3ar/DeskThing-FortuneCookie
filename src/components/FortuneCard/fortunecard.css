@@ -1,0 +1,99 @@
+.fortune-card {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 32px;
+  background: linear-gradient(135deg, var(--surface-200), var(--surface-150));
+  color: var(--text);
+  border-radius: 12px;
+  filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.5));
+  text-align: center;
+  max-width: 720px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.fortune-card::before {
+  content: '🥠';
+  position: absolute;
+  top: -8px;
+  left: 16px;
+  font-size: 48px;
+  opacity: 0.15;
+}
+
+.fortune-card--text {
+  font-size: 28px;
+  line-height: 1.5;
+  font-weight: 400;
+  font-style: italic;
+  color: var(--text);
+  margin: 16px 0;
+  max-height: 200px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
+.fortune-card--category {
+  display: inline-block;
+  padding: 4px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-weight: 600;
+  border: 1px solid var(--accent);
+  color: var(--accent);
+  background-color: rgba(255, 200, 87, 0.1);
+  margin-top: 8px;
+}
+
+.fortune-card--stats {
+  display: flex;
+  gap: 24px;
+  margin-top: 16px;
+  font-size: 14px;
+  color: var(--sub-text);
+}
+
+.fortune-card--stat {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.fortune-card--actions {
+  display: flex;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.fortune-card--next {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 32px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--surface-100);
+  background: linear-gradient(135deg, var(--accent), #e6a020);
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  border: none;
+}
+
+.fortune-card--next:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 16px rgba(255, 200, 87, 0.3);
+}
+
+.fortune-card--next:active {
+  transform: scale(0.97);
+}

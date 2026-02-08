@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 16px;
+  background-color: var(--surface-100);
+  color: var(--sub-text);
+  font-size: 14px;
+  height: 32px;
+  border-bottom: 1px solid var(--surface-300);
+}
+
+.header--title {
+  font-weight: 600;
+  color: var(--accent);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.header--time {
+  color: var(--sub-text);
+}
+
+.header--updated {
+  color: var(--sub-text);
+  font-size: 12px;
+}
