@@ -1,0 +1,48 @@
+{
+  "meta_version": "0.11.8",
+  "meta_type": "app",
+  "repository": "https://github.com/ph3ar/DeskThing-FortuneCookie",
+  "icon": "",
+  "size": 216893,
+  "appManifest": {
+    "id": "fortune-cookie",
+    "isWebApp": true,
+    "requires": [],
+    "label": "Fortune Cookie",
+    "version": "1.0.0",
+    "version_code": "1.0",
+    "compatible_server": [
+      "11"
+    ],
+    "compatible_client": [
+      "11"
+    ],
+    "description": "A fortune cookie app for DeskThing that reveals life goals and wisdom",
+    "author": "Michael Barbine",
+    "platforms": [
+      "linux",
+      "windows",
+      "mac"
+    ],
+    "homepage": "http://www.fortune-cookie.ph3ar.com",
+    "repository": "https://github.com/ph3ar/DeskThing-FortuneCookie",
+    "tags": [
+      "fortune",
+      "fun",
+      "wisdom",
+      "life goals",
+      "entertainment"
+    ],
+    "requiredVersions": {
+      "server": ">=0.11.8",
+      "client": ">=0.11.2"
+    },
+    "updateUrl": "https://github.com/ph3ar/DeskThing-FortuneCookie"
+  },
+  "updateUrl": "https://github.com/ph3ar/DeskThing-FortuneCookie/releases/latest/download/deskthing-fortune-cookie-v1.0.0.zip",
+  "hash": "585855957fe7bad727bfb58b812cf5c027477ca1391dc3937b4edcd8fc7f1a616ea612c84ddd21a328a44c79f39ef636fb216abdb3cab2b4b405aa089e6a5099",
+  "hashAlgorithm": "sha512",
+  "updatedAt": 1770596734048,
+  "createdAt": 1770596734048,
+  "downloads": 0
+}
